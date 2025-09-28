@@ -1,0 +1,143 @@
+<!-- -------------------------------------------- -->
+<!-- --------- LAB 4E Web Application ----------- -->
+<!-- 
+    Mashed up by: Mark McDermott   from various sources
+    Project:      EE445L Lab 4E
+    Date:         6/6/23
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>MQTT Control</title>
+		
+		<style>
+		.button {
+  			border: none;
+  			color: white;
+  			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 14px;
+  			margin: 4px 2px;
+  			cursor: pointer;
+		}
+
+		.time_controls 		{background-color: #545faa;} 
+		.feature_controls   {background-color: #008CBA;} 
+		.speaker_controls  	{background-color: #4CAF50;}
+
+		hr {
+		    border: none;
+		    height: 5px;
+		    /* Set the hr color */
+		    background-color: #a2ecee;  
+		}
+		</style>
+
+        <link rel = "stylesheet" href = "lib/styles.css">        
+	</head>
+
+	<script>
+		let holdInterval = null;
+
+		function startHold(fn) {
+		fn(); // run once immediately
+		holdInterval = setInterval(fn, 200); // repeat every 200ms
+		}
+
+		function stopHold() {
+		clearInterval(holdInterval);
+		holdInterval = null;
+		}
+	</script>
+
+	<body>
+
+        
+
+        <h3 style="font-family:verdana;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Board Time  </h3>
+
+        <!-- EMQX MQTT Client-->
+	<script src="lib/mqtt.min.js"></script>
+		
+        <!-- Our Code Goes Here -->
+        <div id = "board-clock"> </div>
+		<script src="clock_page.js"></script>
+        <br> <br> 		
+	  
+		<h2>Time Controls</h2>
+		<p>
+			<button class="button time_controls" 
+					onmousedown="startHold(inc_hour)" 
+					onmouseup="stopHold()" 
+					onmouseleave="stopHold()"
+					style="width: 130px; height: 40px">HOUR ++</button>
+
+			<button class="button time_controls" 
+					onmousedown="startHold(inc_min)" 
+					onmouseup="stopHold()" 
+					onmouseleave="stopHold()"
+					style="width: 130px; height: 40px">MIN ++</button>
+
+			<button class="button time_controls"			
+					onclick="toggleAM_PM();"  
+					style="width: 210px; height: 40px">Toggle AM/PM</button>
+	   	</p>
+		
+		<p>
+			<button class="button time_controls" 
+					onmousedown="startHold(dec_hour)" 
+					onmouseup="stopHold()" 
+					onmouseleave="stopHold()"
+					style="width: 130px; height: 40px">HOUR --</button> 
+
+			<button class="button time_controls" 
+					onmousedown="startHold(dec_min)" 
+					onmouseup="stopHold()" 
+					onmouseleave="stopHold()"
+					style="width: 130px; height: 40px">MIN --</button>
+
+			<button class="button time_controls"  		
+					onclick="_12_24_onClick();"  
+					style="width: 210px; height: 40px">Toggle 12/24 HR mode</button>
+		</p>
+
+
+		<h2>Feature Controls</h2>
+        <p> 
+			<button class="button feature_controls"  	   
+					onclick="darkMode_onClick();"  
+					style="width: 175px; height: 40px">Toggle Darkmode</button>
+
+			<button class="button feature_controls"  		
+					onclick="dance_onClick();"  
+					style="width: 130px; height: 40px">Dance</button>
+		</p>
+
+
+		<h2>Speaker Controls</h2>
+		<p>
+			<button class="button speaker_controls"  		
+					onclick="play_sound();"  
+					style="width: 150px; height: 40px">Play Sound</button>
+
+			<button class="button speaker_controls"  		
+					onclick="silence_alarm();"  
+					style="width: 160px; height: 40px">Silence Sound</button>
+		</p>
+	
+	
+		
+        <!-- Start it up! -->      
+		<script>connect();</script>
+	</body>
+
+	<h1>Justin Thai</h1>
+	<h1>Walter Contreras</h1>
+	<h1>2025</h1>
+</html>

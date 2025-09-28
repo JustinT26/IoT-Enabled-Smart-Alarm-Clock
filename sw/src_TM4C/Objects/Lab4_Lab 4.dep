@@ -1,0 +1,126 @@
+Dependencies for Project 'Lab4', Target 'Lab 4': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\Lab4E_Main.c)(0x68D8839D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/lab4e_main.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc\PLL.h)(0x68D2D1FB)
+I (..\inc\Timer2A.h)(0x68D2D1FB)
+I (..\inc\Timer5A.h)(0x68D2D1FB)
+I (..\inc\UART.h)(0x68D2D1FB)
+I (..\inc\UART5.h)(0x68D2D1FB)
+I (..\inc\esp8266_base.h)(0x68D2D1FB)
+I (..\inc\MQTT.h)(0x68D86EA0)
+I (..\inc\Unified_Port_Init.h)(0x68D2D1FB)
+I (..\inc_lab3\SwitchInterface_Lab3.h)(0x68D446D2)
+I (..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc_lab3\SpeakerInterface_Lab3.h)(0x68D88284)
+I (..\inc_lab3\UpdateDisplay_Lab3.h)(0x68D1C024)
+I (..\inc_lab3\..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc_lab3\Globals_Lab3.h)(0x68D5DE1B)
+I (..\inc_lab3\FSM_Lab3.h)(0x68CFA329)
+I (..\inc_lab3\ManageTime_Lab3.h)(0x68D5D7F2)
+I (..\inc_lab3\..\inc\Timer3A.h)(0x68D2D1FB)
+I (..\inc_lab3\Alarm_Lab3.h)(0x68CFA2A2)
+I (..\inc_lab3\ADC_Lab3.h)(0x68D883AD)
+I (..\inc_lab3\..\inc\Timer4A.h)(0x68D2D1FB)
+F (.\startup.s)(0x68D2D1FB)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1"-o ./objects/startup.o)
+F (.\UART.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/uart.o -MMD)
+I (UART.h)(0x68D2D1FB)
+I (..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc\PLL.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/pll.o -MMD)
+I (..\inc\..\inc\PLL.h)(0x68D2D1FB)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc\Unified_Port_Init.c)(0x68D59FDB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/unified_port_init.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc\Unified_Port_Init.h)(0x68D2D1FB)
+F (..\inc\Timer0A.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/timer0a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc\..\inc\CortexM.h)(0x68D2D1FB)
+F (..\inc\Timer2A.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/timer2a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc\LED.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/led.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc\ST7735.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/st7735.o -MMD)
+I (..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc\MQTT.c)(0x68D8796C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/mqtt.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc\PLL.h)(0x68D2D1FB)
+I (..\inc\UART.h)(0x68D2D1FB)
+I (..\inc\UART5.h)(0x68D2D1FB)
+I (..\inc\esp8266.h)(0x68D2D1FB)
+I (..\inc\..\inc_lab3\UpdateDisplay_Lab3.h)(0x68D1C024)
+I (..\inc\..\inc_lab3\..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc\..\inc_lab3\Globals_Lab3.h)(0x68D5DE1B)
+I (..\inc\..\inc_lab3\ManageTime_Lab3.h)(0x68D5D7F2)
+I (..\inc\..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc\..\inc_lab3\..\inc\Timer3A.h)(0x68D2D1FB)
+I (..\inc\..\inc_lab3\FSM_Lab3.h)(0x68CFA329)
+I (..\inc\..\inc_lab3\Alarm_Lab3.h)(0x68CFA2A2)
+I (..\inc\..\inc_lab3\SpeakerInterface_Lab3.h)(0x68D88284)
+F (..\inc\esp8266_base.c)(0x68D5B884)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/esp8266_base.o -MMD)
+I (..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc\UART.h)(0x68D2D1FB)
+I (..\inc\UART5.h)(0x68D2D1FB)
+I (..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc\Clock.h)(0x68D2D1FB)
+I (..\inc\esp8266.h)(0x68D2D1FB)
+F (..\inc\UART5.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/uart5.o -MMD)
+I (..\inc\UART5.h)(0x68D2D1FB)
+I (..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc\Timer5A.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/timer5a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc_lab3\ADC_Lab3.c)(0x68D48527)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/adc_lab3.o -MMD)
+I (..\inc_lab3\ADC_Lab3.h)(0x68D883AD)
+I (..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc_lab3\..\inc\Timer4A.h)(0x68D2D1FB)
+F (..\inc_lab3\Alarm_Lab3.c)(0x68D87CCE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/alarm_lab3.o -MMD)
+I (..\inc_lab3\Alarm_Lab3.h)(0x68CFA2A2)
+I (..\inc_lab3\Globals_Lab3.h)(0x68D5DE1B)
+I (..\inc_lab3\UpdateDisplay_Lab3.h)(0x68D1C024)
+I (..\inc_lab3\..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc_lab3\SpeakerInterface_Lab3.h)(0x68D88284)
+I (..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc_lab3\AnalogClock_Lab3.c)(0x68CFA0E7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/analogclock_lab3.o -MMD)
+I (..\inc_lab3\AnalogClock_Lab3.h)(0x68D1C676)
+F (..\inc_lab3\DancingGuy_Lab3.c)(0x68D1CDC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/dancingguy_lab3.o -MMD)
+I (..\inc_lab3\DancingGuy_Lab3.h)(0x68D1C6C6)
+F (..\inc_lab3\FSM_Lab3.c)(0x68CFA2BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/fsm_lab3.o -MMD)
+I (..\inc_lab3\FSM_Lab3.h)(0x68CFA329)
+F (..\inc_lab3\Globals_Lab3.c)(0x68D5F35E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/globals_lab3.o -MMD)
+I (..\inc_lab3\Globals_Lab3.h)(0x68D5DE1B)
+I (..\inc_lab3\UpdateDisplay_Lab3.h)(0x68D1C024)
+I (..\inc_lab3\..\inc\ST7735.h)(0x68D2D1FB)
+F (..\inc_lab3\ManageTime_Lab3.c)(0x68D5D674)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/managetime_lab3.o -MMD)
+I (..\inc_lab3\ManageTime_Lab3.h)(0x68D5D7F2)
+I (..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc_lab3\..\inc\Timer3A.h)(0x68D2D1FB)
+I (..\inc_lab3\UpdateDisplay_Lab3.h)(0x68D1C024)
+I (..\inc_lab3\..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc_lab3\Globals_Lab3.h)(0x68D5DE1B)
+I (..\inc_lab3\Alarm_Lab3.h)(0x68CFA2A2)
+F (..\inc_lab3\SineCosineLUT_Lab3.c)(0x68CFA85F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/sinecosinelut_lab3.o -MMD)
+I (..\inc_lab3\SineCosineLUT_Lab3.h)(0x68CFA83A)
+F (..\inc_lab3\SpeakerInterface_Lab3.c)(0x68D8820F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/speakerinterface_lab3.o -MMD)
+I (..\inc_lab3\SpeakerInterface_Lab3.h)(0x68D88284)
+I (..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc_lab3\SwitchInterface_Lab3.c)(0x68D44778)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/switchinterface_lab3.o -MMD)
+I (..\inc_lab3\SwitchInterface_Lab3.h)(0x68D446D2)
+I (..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc_lab3\UpdateDisplay_Lab3.c)(0x68D87E01)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/updatedisplay_lab3.o -MMD)
+I (..\inc_lab3\UpdateDisplay_Lab3.h)(0x68D1C024)
+I (..\inc_lab3\..\inc\ST7735.h)(0x68D2D1FB)
+I (..\inc_lab3\Globals_Lab3.h)(0x68D5DE1B)
+I (..\inc_lab3\FSM_Lab3.h)(0x68CFA329)
+I (..\inc_lab3\AnalogClock_Lab3.h)(0x68D1C676)
+I (..\inc_lab3\ManageTime_Lab3.h)(0x68D5D7F2)
+I (..\inc_lab3\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+I (..\inc_lab3\..\inc\Timer3A.h)(0x68D2D1FB)
+I (..\inc_lab3\Alarm_Lab3.h)(0x68CFA2A2)
+I (..\inc_lab3\SineCosineLUT_Lab3.h)(0x68CFA83A)
+I (..\inc_lab3\DancingGuy_Lab3.h)(0x68D1C6C6)
+F (..\inc\Timer4A.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/timer4a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
+F (..\inc\Timer3A.c)(0x68D2D1FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./..-IC:/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./objects/timer3a.o -MMD)
+I (..\inc\..\inc\tm4c123gh6pm.h)(0x68D2D1FB)
